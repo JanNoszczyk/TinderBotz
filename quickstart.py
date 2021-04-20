@@ -14,7 +14,7 @@ if __name__ == "__main__":
     
     # replace this with your own email and password!
     email = "example@gmail.com"
-    password = "password123"
+    password = "password123aa"
     
     # login using your google account with a verified email!
     session.login_using_google(email, password)
