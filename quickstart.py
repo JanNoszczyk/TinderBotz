@@ -32,7 +32,7 @@ if __name__ == "__main__":
     NOTE: this is not my phone number :)
     '''
     country = "United Kingdom"
-    phone_number = "7450621862"
+    phone_number = "xxx"
     session.login_using_sms(country, phone_number)
 
     # spam likes, dislikes and superlikes
