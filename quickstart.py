@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     f = open("authentication/account.txt","r")
     lines = f.readlines()
-    email, password = lines[0].strip(), lines[1].strip()
+    phone = lines[0].strip()
     f.close()
     
     # # login using your google account with a verified email!
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     NOTE: this is not my phone number :)
     '''
     country = "United Kingdom"
-    phone_number = "xxx"
+    phone_number = phone
     session.login_using_sms(country, phone_number)
 
     # spam likes, dislikes and superlikes
